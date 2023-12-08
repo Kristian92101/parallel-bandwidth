@@ -1,0 +1,780 @@
+This is bandwidth version 1.11.2d
+Copyright (C) 2005-2021 by Zack T Smith. (original author)
+  Copyright (C) 2023 by Kristian Kadlubiak.
+
+This software is covered by the GNU Public License.
+It is provided AS-IS, use at your own risk.
+See the file COPYING for more information.
+
+CPU family: GenuineIntel
+CPU features: MMX SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 AES AVX AVX2 ADX BMI1 BMI2 HTT NX Intel64 AVX512_F AVX512_DQ AVX512_CD AVX512_BW AVX512_VL AVX512_VNNI 
+
+Cache 0: L1 data cache,        line size 64,  8-ways,    64 sets, size 32k 
+Cache 1: L1 instruction cache, line size 64,  8-ways,    64 sets, size 32k 
+Cache 2: L2 unified cache,     line size 64, 16-ways,  1024 sets, size 1024k 
+Cache 3: L3 unified cache,     line size 64, 11-ways, 36864 sets, size 25344k 
+
+System: Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz GNU/Linux 
+
+Notation: B = byte, kB = 1024 B, MB = 1048576 B.
+
+Sequential read (64-bit), size = 256 B, 
+Thread 0: size in bytes: 256,  size per thread in bytes 128, starting address 13852288
+
+Thread 0: size of pointers: 1,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 256,  size per thread in bytes 128, starting address 13852416
+
+Thread 1: size of pointers: 1,  size of pointers per thread 0, starting address 8
+loops = 6291456, 50132.2 MB/s
+Sequential read (64-bit), size = 384 B, 
+Thread 0: size in bytes: 384,  size per thread in bytes 192, starting address 14423168
+
+Thread 1: size in bytes: 384,  size per thread in bytes 192, starting address 14423360
+
+Thread 1: size of pointers: 1,  size of pointers per thread 0, starting address 8
+
+Thread 0: size of pointers: 1,  size of pointers per thread 1, starting address 0
+loops = 5592404, 75238.8 MB/s
+Sequential read (64-bit), size = 512 B, 
+Thread 0: size in bytes: 512,  size per thread in bytes 256, starting address 12569280
+
+Thread 0: size of pointers: 2,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 512,  size per thread in bytes 256, starting address 12569536
+
+Thread 1: size of pointers: 2,  size of pointers per thread 1, starting address 8
+loops = 10485760, 100309.5 MB/s
+Sequential read (64-bit), size = 640 B, 
+Thread 0: size in bytes: 640,  size per thread in bytes 320, starting address 8300704
+
+Thread 0: size of pointers: 2,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 640,  size per thread in bytes 320, starting address 8301024
+
+Thread 1: size of pointers: 2,  size of pointers per thread 1, starting address 8
+loops = 8388600, 83597.2 MB/s
+Sequential read (64-bit), size = 768 B, 
+Thread 0: size in bytes: 768,  size per thread in bytes 384, starting address 21719296
+
+Thread 1: size in bytes: 768,  size per thread in bytes 384, starting address 21719680
+
+Thread 1: size of pointers: 3,  size of pointers per thread 1, starting address 16
+
+Thread 0: size of pointers: 3,  size of pointers per thread 2, starting address 0
+loops = 5592400, 75240.1 MB/s
+Sequential read (64-bit), size = 896 B, 
+Thread 0: size in bytes: 896,  size per thread in bytes 448, starting address 13799776
+
+Thread 1: size in bytes: 896,  size per thread in bytes 448, starting address 13800224
+
+Thread 1: size of pointers: 3,  size of pointers per thread 1, starting address 16
+
+Thread 0: size of pointers: 3,  size of pointers per thread 2, starting address 0
+loops = 5991860, 87419.7 MB/s
+Sequential read (64-bit), size = 1024 B, 
+Thread 1: size in bytes: 1024,  size per thread in bytes 512, starting address 23995040
+
+Thread 1: size of pointers: 4,  size of pointers per thread 2, starting address 16
+
+Thread 0: size in bytes: 1024,  size per thread in bytes 512, starting address 23994528
+
+Thread 0: size of pointers: 4,  size of pointers per thread 2, starting address 0
+loops = 5242880, 100236.9 MB/s
+Sequential read (64-bit), size = 1280 B, 
+Thread 0: size in bytes: 1280,  size per thread in bytes 640, starting address 23994528
+
+Thread 1: size in bytes: 1280,  size per thread in bytes 640, starting address 23995168
+
+Thread 1: size of pointers: 5,  size of pointers per thread 2, starting address 24
+
+Thread 0: size of pointers: 5,  size of pointers per thread 3, starting address 0
+loops = 4194300, 83524.9 MB/s
+Sequential read (64-bit), size = 2 kB, 
+Thread 0: size in bytes: 2048,  size per thread in bytes 1024, starting address 23995104
+
+Thread 1: size in bytes: 2048,  size per thread in bytes 1024, starting address 23996128
+
+Thread 1: size of pointers: 8,  size of pointers per thread 4, starting address 32
+
+Thread 0: size of pointers: 8,  size of pointers per thread 4, starting address 0
+loops = 2621440, 100244.7 MB/s
+Sequential read (64-bit), size = 3 kB, 
+Thread 0: size in bytes: 3072,  size per thread in bytes 1536, starting address 23995232
+
+Thread 1: size in bytes: 3072,  size per thread in bytes 1536, starting address 23996768
+
+Thread 1: size of pointers: 12,  size of pointers per thread 6, starting address 48
+
+Thread 0: size of pointers: 12,  size of pointers per thread 6, starting address 0
+loops = 1747620, 100232.6 MB/s
+Sequential read (64-bit), size = 4 kB, 
+Thread 0: size in bytes: 4096,  size per thread in bytes 2048, starting address 26381408
+
+Thread 0: size of pointers: 16,  size of pointers per thread 8, starting address 0
+
+Thread 1: size in bytes: 4096,  size per thread in bytes 2048, starting address 26383456
+
+Thread 1: size of pointers: 16,  size of pointers per thread 8, starting address 64
+loops = 1310720, 100240.8 MB/s
+Sequential read (64-bit), size = 6 kB, 
+Thread 0: size in bytes: 6144,  size per thread in bytes 3072, starting address 26381408
+
+Thread 0: size of pointers: 24,  size of pointers per thread 12, starting address 0
+
+Thread 1: size in bytes: 6144,  size per thread in bytes 3072, starting address 26384480
+
+Thread 1: size of pointers: 24,  size of pointers per thread 12, starting address 96
+loops = 873810, 100234.5 MB/s
+Sequential read (64-bit), size = 8 kB, 
+Thread 0: size in bytes: 8192,  size per thread in bytes 4096, starting address 26381408
+
+Thread 1: size in bytes: 8192,  size per thread in bytes 4096, starting address 26385504
+
+Thread 1: size of pointers: 32,  size of pointers per thread 16, starting address 128
+
+Thread 0: size of pointers: 32,  size of pointers per thread 16, starting address 0
+loops = 655360, 100238.9 MB/s
+Sequential read (64-bit), size = 12 kB, 
+Thread 0: size in bytes: 12288,  size per thread in bytes 6144, starting address 37090432
+
+Thread 0: size of pointers: 48,  size of pointers per thread 24, starting address 0
+
+Thread 1: size in bytes: 12288,  size per thread in bytes 6144, starting address 37096576
+
+Thread 1: size of pointers: 48,  size of pointers per thread 24, starting address 192
+loops = 436900, 100235.4 MB/s
+Sequential read (64-bit), size = 16 kB, 
+Thread 0: size in bytes: 16384,  size per thread in bytes 8192, starting address 37090432
+
+Thread 0: size of pointers: 64,  size of pointers per thread 32, starting address 0
+
+Thread 1: size in bytes: 16384,  size per thread in bytes 8192, starting address 37098624
+
+Thread 1: size of pointers: 64,  size of pointers per thread 32, starting address 256
+loops = 327680, 100236.9 MB/s
+Sequential read (64-bit), size = 20 kB, 
+Thread 0: size in bytes: 20480,  size per thread in bytes 10240, starting address 37090432
+
+Thread 1: size in bytes: 20480,  size per thread in bytes 10240, starting address 37100672
+
+Thread 1: size of pointers: 80,  size of pointers per thread 40, starting address 320
+
+Thread 0: size of pointers: 80,  size of pointers per thread 40, starting address 0
+loops = 262140, 98171.2 MB/s
+Sequential read (64-bit), size = 24 kB, 
+Thread 0: size in bytes: 24576,  size per thread in bytes 12288, starting address 37090432
+
+Thread 0: size of pointers: 96,  size of pointers per thread 48, starting address 0
+
+Thread 1: size in bytes: 24576,  size per thread in bytes 12288, starting address 37102720
+
+Thread 1: size of pointers: 96,  size of pointers per thread 48, starting address 384
+loops = 218450, 99984.8 MB/s
+Sequential read (64-bit), size = 28 kB, 
+Thread 0: size in bytes: 28672,  size per thread in bytes 14336, starting address 37090432
+
+Thread 0: size of pointers: 112,  size of pointers per thread 56, starting address 0
+
+Thread 1: size in bytes: 28672,  size per thread in bytes 14336, starting address 37104768
+
+Thread 1: size of pointers: 112,  size of pointers per thread 56, starting address 448
+loops = 187240, 99975.5 MB/s
+Sequential read (64-bit), size = 32 kB, 
+Thread 0: size in bytes: 32768,  size per thread in bytes 16384, starting address 37090432
+
+Thread 0: size of pointers: 128,  size of pointers per thread 64, starting address 0
+
+Thread 1: size in bytes: 32768,  size per thread in bytes 16384, starting address 37106816
+
+Thread 1: size of pointers: 128,  size of pointers per thread 64, starting address 512
+loops = 163840, 98794.0 MB/s
+Sequential read (64-bit), size = 34 kB, 
+Thread 0: size in bytes: 34816,  size per thread in bytes 17408, starting address 37090432
+
+Thread 0: size of pointers: 136,  size of pointers per thread 68, starting address 0
+
+Thread 1: size in bytes: 34816,  size per thread in bytes 17408, starting address 37107840
+
+Thread 1: size of pointers: 136,  size of pointers per thread 68, starting address 544
+loops = 154200, 98798.2 MB/s
+Sequential read (64-bit), size = 36 kB, 
+Thread 0: size in bytes: 36864,  size per thread in bytes 18432, starting address 37090432
+
+Thread 0: size of pointers: 144,  size of pointers per thread 72, starting address 0
+
+Thread 1: size in bytes: 36864,  size per thread in bytes 18432, starting address 37108864
+
+Thread 1: size of pointers: 144,  size of pointers per thread 72, starting address 576
+loops = 145630, 98872.3 MB/s
+Sequential read (64-bit), size = 40 kB, 
+Thread 0: size in bytes: 40960,  size per thread in bytes 20480, starting address 37090432
+
+Thread 0: size of pointers: 160,  size of pointers per thread 80, starting address 0
+
+Thread 1: size in bytes: 40960,  size per thread in bytes 20480, starting address 37110912
+
+Thread 1: size of pointers: 160,  size of pointers per thread 80, starting address 640
+loops = 131070, 98933.8 MB/s
+Sequential read (64-bit), size = 48 kB, 
+Thread 0: size in bytes: 49152,  size per thread in bytes 24576, starting address 37090432
+
+Thread 0: size of pointers: 192,  size of pointers per thread 96, starting address 0
+
+Thread 1: size in bytes: 49152,  size per thread in bytes 24576, starting address 37115008
+
+Thread 1: size of pointers: 192,  size of pointers per thread 96, starting address 768
+loops = 109220, 99084.3 MB/s
+Sequential read (64-bit), size = 64 kB, 
+Thread 0: size in bytes: 65536,  size per thread in bytes 32768, starting address 37090432
+
+Thread 0: size of pointers: 256,  size of pointers per thread 128, starting address 0
+
+Thread 1: size in bytes: 65536,  size per thread in bytes 32768, starting address 37123200
+
+Thread 1: size of pointers: 256,  size of pointers per thread 128, starting address 1024
+loops = 81920, 96986.2 MB/s
+Sequential read (64-bit), size = 128 kB, 
+Thread 0: size in bytes: 131072,  size per thread in bytes 65536, starting address 37090432
+
+Thread 0: size of pointers: 512,  size of pointers per thread 256, starting address 0
+
+Thread 1: size in bytes: 131072,  size per thread in bytes 65536, starting address 37155968
+
+Thread 1: size of pointers: 512,  size of pointers per thread 256, starting address 2048
+loops = 32768, 78801.1 MB/s
+
+Sequential read (128-bit), size = 256 B, 
+Thread 0: size in bytes: 256,  size per thread in bytes 128, starting address 13852288
+
+Thread 0: size of pointers: 1,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 256,  size per thread in bytes 128, starting address 13852416
+
+Thread 1: size of pointers: 1,  size of pointers per thread 0, starting address 8
+loops = 10485760, 100313.5 MB/s
+Sequential read (128-bit), size = 384 B, 
+Thread 0: size in bytes: 384,  size per thread in bytes 192, starting address 14423168
+
+Thread 0: size of pointers: 1,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 384,  size per thread in bytes 192, starting address 14423360
+
+Thread 1: size of pointers: 1,  size of pointers per thread 0, starting address 8
+loops = 8388606, 120357.3 MB/s
+Sequential read (128-bit), size = 512 B, 
+Thread 0: size in bytes: 512,  size per thread in bytes 256, starting address 12569280
+
+Thread 0: size of pointers: 2,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 512,  size per thread in bytes 256, starting address 12569536
+
+Thread 1: size of pointers: 2,  size of pointers per thread 1, starting address 8
+loops = 20971520, 199113.3 MB/s
+Sequential read (128-bit), size = 640 B, 
+Thread 0: size in bytes: 640,  size per thread in bytes 320, starting address 8300704
+
+Thread 0: size of pointers: 2,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 640,  size per thread in bytes 320, starting address 8301024
+
+Thread 1: size of pointers: 2,  size of pointers per thread 1, starting address 8
+loops = 11744040, 133643.9 MB/s
+Sequential read (128-bit), size = 768 B, 
+Thread 0: size in bytes: 768,  size per thread in bytes 384, starting address 21719296
+
+Thread 0: size of pointers: 3,  size of pointers per thread 2, starting address 0
+
+Thread 1: size in bytes: 768,  size per thread in bytes 384, starting address 21719680
+
+Thread 1: size of pointers: 3,  size of pointers per thread 1, starting address 16
+loops = 11184800, 150350.4 MB/s
+Sequential read (128-bit), size = 896 B, 
+Thread 0: size in bytes: 896,  size per thread in bytes 448, starting address 13799776
+
+Thread 0: size of pointers: 3,  size of pointers per thread 2, starting address 0
+
+Thread 1: size in bytes: 896,  size per thread in bytes 448, starting address 13800224
+
+Thread 1: size of pointers: 3,  size of pointers per thread 1, starting address 16
+loops = 8388604, 140328.8 MB/s
+Sequential read (128-bit), size = 1024 B, 
+Thread 0: size in bytes: 1024,  size per thread in bytes 512, starting address 24273056
+
+Thread 0: size of pointers: 4,  size of pointers per thread 2, starting address 0
+
+Thread 1: size in bytes: 1024,  size per thread in bytes 512, starting address 24273568
+
+Thread 1: size of pointers: 4,  size of pointers per thread 2, starting address 16
+loops = 10485760, 200450.2 MB/s
+Sequential read (128-bit), size = 1280 B, 
+Thread 0: size in bytes: 1280,  size per thread in bytes 640, starting address 24275104
+
+Thread 0: size of pointers: 5,  size of pointers per thread 3, starting address 0
+
+Thread 1: size in bytes: 1280,  size per thread in bytes 640, starting address 24275744
+
+Thread 1: size of pointers: 5,  size of pointers per thread 2, starting address 24
+loops = 7549740, 167053.2 MB/s
+Sequential read (128-bit), size = 2 kB, 
+Thread 0: size in bytes: 2048,  size per thread in bytes 1024, starting address 20566144
+
+Thread 1: size in bytes: 2048,  size per thread in bytes 1024, starting address 20567168
+
+Thread 1: size of pointers: 8,  size of pointers per thread 4, starting address 32
+
+Thread 0: size of pointers: 8,  size of pointers per thread 4, starting address 0
+loops = 5242880, 200454.2 MB/s
+Sequential read (128-bit), size = 3 kB, 
+Thread 0: size in bytes: 3072,  size per thread in bytes 1536, starting address 20566144
+
+Thread 0: size of pointers: 12,  size of pointers per thread 6, starting address 0
+
+Thread 1: size in bytes: 3072,  size per thread in bytes 1536, starting address 20567680
+
+Thread 1: size of pointers: 12,  size of pointers per thread 6, starting address 48
+loops = 3495240, 200476.9 MB/s
+Sequential read (128-bit), size = 4 kB, 
+Thread 0: size in bytes: 4096,  size per thread in bytes 2048, starting address 26381408
+
+Thread 0: size of pointers: 16,  size of pointers per thread 8, starting address 0
+
+Thread 1: size in bytes: 4096,  size per thread in bytes 2048, starting address 26383456
+
+Thread 1: size of pointers: 16,  size of pointers per thread 8, starting address 64
+loops = 2621440, 200430.6 MB/s
+Sequential read (128-bit), size = 6 kB, 
+Thread 0: size in bytes: 6144,  size per thread in bytes 3072, starting address 26381408
+
+Thread 0: size of pointers: 24,  size of pointers per thread 12, starting address 0
+
+Thread 1: size in bytes: 6144,  size per thread in bytes 3072, starting address 26384480
+
+Thread 1: size of pointers: 24,  size of pointers per thread 12, starting address 96
+loops = 1747620, 200457.3 MB/s
+Sequential read (128-bit), size = 8 kB, 
+Thread 0: size in bytes: 8192,  size per thread in bytes 4096, starting address 26381408
+
+Thread 0: size of pointers: 32,  size of pointers per thread 16, starting address 0
+
+Thread 1: size in bytes: 8192,  size per thread in bytes 4096, starting address 26385504
+
+Thread 1: size of pointers: 32,  size of pointers per thread 16, starting address 128
+loops = 1310720, 200442.4 MB/s
+Sequential read (128-bit), size = 12 kB, 
+Thread 0: size in bytes: 12288,  size per thread in bytes 6144, starting address 37090432
+
+Thread 0: size of pointers: 48,  size of pointers per thread 24, starting address 0
+
+Thread 1: size in bytes: 12288,  size per thread in bytes 6144, starting address 37096576
+
+Thread 1: size of pointers: 48,  size of pointers per thread 24, starting address 192
+loops = 873800, 200451.1 MB/s
+Sequential read (128-bit), size = 16 kB, 
+Thread 0: size in bytes: 16384,  size per thread in bytes 8192, starting address 37090432
+
+Thread 0: size of pointers: 64,  size of pointers per thread 32, starting address 0
+
+Thread 1: size in bytes: 16384,  size per thread in bytes 8192, starting address 37098624
+
+Thread 1: size of pointers: 64,  size of pointers per thread 32, starting address 256
+loops = 655360, 200442.4 MB/s
+Sequential read (128-bit), size = 20 kB, 
+Thread 0: size in bytes: 20480,  size per thread in bytes 10240, starting address 37090432
+
+Thread 0: size of pointers: 80,  size of pointers per thread 40, starting address 0
+
+Thread 1: size in bytes: 20480,  size per thread in bytes 10240, starting address 37100672
+
+Thread 1: size of pointers: 80,  size of pointers per thread 40, starting address 320
+loops = 524280, 191646.1 MB/s
+Sequential read (128-bit), size = 24 kB, 
+Thread 0: size in bytes: 24576,  size per thread in bytes 12288, starting address 37090432
+
+Thread 0: size of pointers: 96,  size of pointers per thread 48, starting address 0
+
+Thread 1: size in bytes: 24576,  size per thread in bytes 12288, starting address 37102720
+
+Thread 1: size of pointers: 96,  size of pointers per thread 48, starting address 384
+loops = 436900, 199576.0 MB/s
+Sequential read (128-bit), size = 28 kB, 
+Thread 0: size in bytes: 28672,  size per thread in bytes 14336, starting address 37090432
+
+Thread 0: size of pointers: 112,  size of pointers per thread 56, starting address 0
+
+Thread 1: size in bytes: 28672,  size per thread in bytes 14336, starting address 37104768
+
+Thread 1: size of pointers: 112,  size of pointers per thread 56, starting address 448
+loops = 374480, 199553.5 MB/s
+Sequential read (128-bit), size = 32 kB, 
+Thread 0: size in bytes: 32768,  size per thread in bytes 16384, starting address 37090432
+
+Thread 0: size of pointers: 128,  size of pointers per thread 64, starting address 0
+
+Thread 1: size in bytes: 32768,  size per thread in bytes 16384, starting address 37106816
+
+Thread 1: size of pointers: 128,  size of pointers per thread 64, starting address 512
+loops = 327680, 199528.5 MB/s
+Sequential read (128-bit), size = 34 kB, 
+Thread 0: size in bytes: 34816,  size per thread in bytes 17408, starting address 37090432
+
+Thread 0: size of pointers: 136,  size of pointers per thread 68, starting address 0
+
+Thread 1: size in bytes: 34816,  size per thread in bytes 17408, starting address 37107840
+
+Thread 1: size of pointers: 136,  size of pointers per thread 68, starting address 544
+loops = 308400, 199618.8 MB/s
+Sequential read (128-bit), size = 36 kB, 
+Thread 0: size in bytes: 36864,  size per thread in bytes 18432, starting address 37090432
+
+Thread 0: size of pointers: 144,  size of pointers per thread 72, starting address 0
+
+Thread 1: size in bytes: 36864,  size per thread in bytes 18432, starting address 37108864
+
+Thread 1: size of pointers: 144,  size of pointers per thread 72, starting address 576
+loops = 291260, 199536.4 MB/s
+Sequential read (128-bit), size = 40 kB, 
+Thread 0: size in bytes: 40960,  size per thread in bytes 20480, starting address 37090432
+
+Thread 0: size of pointers: 160,  size of pointers per thread 80, starting address 0
+
+Thread 1: size in bytes: 40960,  size per thread in bytes 20480, starting address 37110912
+
+Thread 1: size of pointers: 160,  size of pointers per thread 80, starting address 640
+loops = 262140, 195301.3 MB/s
+Sequential read (128-bit), size = 48 kB, 
+Thread 0: size in bytes: 49152,  size per thread in bytes 24576, starting address 37090432
+
+Thread 0: size of pointers: 192,  size of pointers per thread 96, starting address 0
+
+Thread 1: size in bytes: 49152,  size per thread in bytes 24576, starting address 37115008
+
+Thread 1: size of pointers: 192,  size of pointers per thread 96, starting address 768
+loops = 218440, 195897.7 MB/s
+Sequential read (128-bit), size = 64 kB, 
+Thread 0: size in bytes: 65536,  size per thread in bytes 32768, starting address 37090432
+
+Thread 0: size of pointers: 256,  size of pointers per thread 128, starting address 0
+
+Thread 1: size in bytes: 65536,  size per thread in bytes 32768, starting address 37123200
+
+Thread 1: size of pointers: 256,  size of pointers per thread 128, starting address 1024
+loops = 163840, 196862.5 MB/s
+Sequential read (128-bit), size = 128 kB, 
+Thread 0: size in bytes: 131072,  size per thread in bytes 65536, starting address 37090432
+
+Thread 0: size of pointers: 512,  size of pointers per thread 256, starting address 0
+
+Thread 1: size in bytes: 131072,  size per thread in bytes 65536, starting address 37155968
+
+Thread 1: size of pointers: 512,  size of pointers per thread 256, starting address 2048
+loops = 49152, 105047.2 MB/s
+
+Sequential read (256-bit), size = 256 B, 
+Thread 0: size in bytes: 256,  size per thread in bytes 128, starting address 13852288
+
+Thread 0: size of pointers: 1,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 256,  size per thread in bytes 128, starting address 13852416
+
+Thread 1: size of pointers: 1,  size of pointers per thread 0, starting address 8
+loops = 20971520, 200509.1 MB/s
+Sequential read (256-bit), size = 512 B, 
+Thread 0: size in bytes: 512,  size per thread in bytes 256, starting address 12569280
+
+Thread 0: size of pointers: 2,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 512,  size per thread in bytes 256, starting address 12569536
+
+Thread 1: size of pointers: 2,  size of pointers per thread 1, starting address 8
+loops = 41943040, 398157.0 MB/s
+Sequential read (256-bit), size = 768 B, 
+Thread 0: size in bytes: 768,  size per thread in bytes 384, starting address 21719296
+
+Thread 0: size of pointers: 3,  size of pointers per thread 2, starting address 0
+
+Thread 1: size in bytes: 768,  size per thread in bytes 384, starting address 21719680
+
+Thread 1: size of pointers: 3,  size of pointers per thread 1, starting address 16
+loops = 20971500, 300675.1 MB/s
+Sequential read (256-bit), size = 1024 B, 
+Thread 0: size in bytes: 1024,  size per thread in bytes 512, starting address 20566144
+
+Thread 0: size of pointers: 4,  size of pointers per thread 2, starting address 0
+
+Thread 1: size in bytes: 1024,  size per thread in bytes 512, starting address 20566656
+
+Thread 1: size of pointers: 4,  size of pointers per thread 2, starting address 16
+loops = 20971520, 400869.1 MB/s
+Sequential read (256-bit), size = 1280 B, 
+Thread 0: size in bytes: 1280,  size per thread in bytes 640, starting address 20566176
+
+Thread 0: size of pointers: 5,  size of pointers per thread 3, starting address 0
+
+Thread 1: size in bytes: 1280,  size per thread in bytes 640, starting address 20566816
+
+Thread 1: size of pointers: 5,  size of pointers per thread 2, starting address 24
+loops = 14260620, 334087.9 MB/s
+Sequential read (256-bit), size = 2 kB, 
+Thread 0: size in bytes: 2048,  size per thread in bytes 1024, starting address 20566304
+
+Thread 0: size of pointers: 8,  size of pointers per thread 4, starting address 0
+
+Thread 1: size in bytes: 2048,  size per thread in bytes 1024, starting address 20567328
+
+Thread 1: size of pointers: 8,  size of pointers per thread 4, starting address 32
+loops = 10485760, 400790.6 MB/s
+Sequential read (256-bit), size = 3 kB, 
+Thread 0: size in bytes: 3072,  size per thread in bytes 1536, starting address 20566432
+
+Thread 0: size of pointers: 12,  size of pointers per thread 6, starting address 0
+
+Thread 1: size in bytes: 3072,  size per thread in bytes 1536, starting address 20567968
+
+Thread 1: size of pointers: 12,  size of pointers per thread 6, starting address 48
+loops = 6990480, 400859.7 MB/s
+Sequential read (256-bit), size = 4 kB, 
+Thread 0: size in bytes: 4096,  size per thread in bytes 2048, starting address 26381408
+
+Thread 0: size of pointers: 16,  size of pointers per thread 8, starting address 0
+
+Thread 1: size in bytes: 4096,  size per thread in bytes 2048, starting address 26383456
+
+Thread 1: size of pointers: 16,  size of pointers per thread 8, starting address 64
+loops = 5242880, 400861.2 MB/s
+Sequential read (256-bit), size = 6 kB, 
+Thread 0: size in bytes: 6144,  size per thread in bytes 3072, starting address 26381408
+
+Thread 0: size of pointers: 24,  size of pointers per thread 12, starting address 0
+
+Thread 1: size in bytes: 6144,  size per thread in bytes 3072, starting address 26384480
+
+Thread 1: size of pointers: 24,  size of pointers per thread 12, starting address 96
+loops = 3495240, 400875.4 MB/s
+Sequential read (256-bit), size = 8 kB, 
+Thread 0: size in bytes: 8192,  size per thread in bytes 4096, starting address 26381408
+
+Thread 0: size of pointers: 32,  size of pointers per thread 16, starting address 0
+
+Thread 1: size in bytes: 8192,  size per thread in bytes 4096, starting address 26385504
+
+Thread 1: size of pointers: 32,  size of pointers per thread 16, starting address 128
+loops = 2621440, 400869.1 MB/s
+Sequential read (256-bit), size = 12 kB, 
+Thread 0: size in bytes: 12288,  size per thread in bytes 6144, starting address 37090432
+
+Thread 0: size of pointers: 48,  size of pointers per thread 24, starting address 0
+
+Thread 1: size in bytes: 12288,  size per thread in bytes 6144, starting address 37096576
+
+Thread 1: size of pointers: 48,  size of pointers per thread 24, starting address 192
+loops = 1747600, 400823.7 MB/s
+Sequential read (256-bit), size = 16 kB, 
+Thread 0: size in bytes: 16384,  size per thread in bytes 8192, starting address 37090432
+
+Thread 0: size of pointers: 64,  size of pointers per thread 32, starting address 0
+
+Thread 1: size in bytes: 16384,  size per thread in bytes 8192, starting address 37098624
+
+Thread 1: size of pointers: 64,  size of pointers per thread 32, starting address 256
+loops = 1310720, 400884.8 MB/s
+Sequential read (256-bit), size = 20 kB, 
+Thread 0: size in bytes: 20480,  size per thread in bytes 10240, starting address 37090432
+
+Thread 0: size of pointers: 80,  size of pointers per thread 40, starting address 0
+
+Thread 1: size in bytes: 20480,  size per thread in bytes 10240, starting address 37100672
+
+Thread 1: size of pointers: 80,  size of pointers per thread 40, starting address 320
+loops = 969918, 369705.5 MB/s
+Sequential read (256-bit), size = 24 kB, 
+Thread 0: size in bytes: 24576,  size per thread in bytes 12288, starting address 37090432
+
+Thread 0: size of pointers: 96,  size of pointers per thread 48, starting address 0
+
+Thread 1: size in bytes: 24576,  size per thread in bytes 12288, starting address 37102720
+
+Thread 1: size of pointers: 96,  size of pointers per thread 48, starting address 384
+loops = 873800, 396386.2 MB/s
+Sequential read (256-bit), size = 28 kB, 
+Thread 0: size in bytes: 28672,  size per thread in bytes 14336, starting address 37090432
+
+Thread 0: size of pointers: 112,  size of pointers per thread 56, starting address 0
+
+Thread 1: size in bytes: 28672,  size per thread in bytes 14336, starting address 37104768
+
+Thread 1: size of pointers: 112,  size of pointers per thread 56, starting address 448
+loops = 748960, 396426.2 MB/s
+Sequential read (256-bit), size = 32 kB, 
+Thread 0: size in bytes: 32768,  size per thread in bytes 16384, starting address 37090432
+
+Thread 0: size of pointers: 128,  size of pointers per thread 64, starting address 0
+
+Thread 1: size in bytes: 32768,  size per thread in bytes 16384, starting address 37106816
+
+Thread 1: size of pointers: 128,  size of pointers per thread 64, starting address 512
+loops = 655360, 396538.0 MB/s
+Sequential read (256-bit), size = 34 kB, 
+Thread 0: size in bytes: 34816,  size per thread in bytes 17408, starting address 37090432
+
+Thread 0: size of pointers: 136,  size of pointers per thread 68, starting address 0
+
+Thread 1: size in bytes: 34816,  size per thread in bytes 17408, starting address 37107840
+
+Thread 1: size of pointers: 136,  size of pointers per thread 68, starting address 544
+loops = 616800, 396731.7 MB/s
+Sequential read (256-bit), size = 36 kB, 
+Thread 0: size in bytes: 36864,  size per thread in bytes 18432, starting address 37090432
+
+Thread 0: size of pointers: 144,  size of pointers per thread 72, starting address 0
+
+Thread 1: size in bytes: 36864,  size per thread in bytes 18432, starting address 37108864
+
+Thread 1: size of pointers: 144,  size of pointers per thread 72, starting address 576
+loops = 582520, 396331.1 MB/s
+Sequential read (256-bit), size = 40 kB, 
+Thread 0: size in bytes: 40960,  size per thread in bytes 20480, starting address 37090432
+
+Thread 0: size of pointers: 160,  size of pointers per thread 80, starting address 0
+
+Thread 1: size in bytes: 40960,  size per thread in bytes 20480, starting address 37110912
+
+Thread 1: size of pointers: 160,  size of pointers per thread 80, starting address 640
+loops = 498066, 381447.0 MB/s
+Sequential read (256-bit), size = 48 kB, 
+Thread 0: size in bytes: 49152,  size per thread in bytes 24576, starting address 37090432
+
+Thread 0: size of pointers: 192,  size of pointers per thread 96, starting address 0
+
+Thread 1: size in bytes: 49152,  size per thread in bytes 24576, starting address 37115008
+
+Thread 1: size of pointers: 192,  size of pointers per thread 96, starting address 768
+loops = 415036, 383701.4 MB/s
+Sequential read (256-bit), size = 64 kB, 
+Thread 0: size in bytes: 65536,  size per thread in bytes 32768, starting address 37090432
+
+Thread 0: size of pointers: 256,  size of pointers per thread 128, starting address 0
+
+Thread 1: size in bytes: 65536,  size per thread in bytes 32768, starting address 37123200
+
+Thread 1: size of pointers: 256,  size of pointers per thread 128, starting address 1024
+loops = 311296, 383437.5 MB/s
+Sequential read (256-bit), size = 128 kB, 
+Thread 0: size in bytes: 131072,  size per thread in bytes 65536, starting address 37090432
+
+Thread 0: size of pointers: 512,  size of pointers per thread 256, starting address 0
+
+Thread 1: size in bytes: 131072,  size per thread in bytes 65536, starting address 37155968
+
+Thread 1: size of pointers: 512,  size of pointers per thread 256, starting address 2048
+loops = 73728, 175112.6 MB/s
+
+Sequential read (512-bit), size = 256 B, 
+Thread 0: size in bytes: 256,  size per thread in bytes 128, starting address 13852288
+
+Thread 1: size in bytes: 256,  size per thread in bytes 128, starting address 13852416
+
+Thread 1: size of pointers: 1,  size of pointers per thread 0, starting address 8
+
+Thread 0: size of pointers: 1,  size of pointers per thread 1, starting address 0
+loops = 18874368, 169993.0 MB/s
+Sequential read (512-bit), size = 512 B, 
+Thread 0: size in bytes: 512,  size per thread in bytes 256, starting address 12569280
+
+Thread 0: size of pointers: 2,  size of pointers per thread 1, starting address 0
+
+Thread 1: size in bytes: 512,  size per thread in bytes 256, starting address 12569536
+
+Thread 1: size of pointers: 2,  size of pointers per thread 1, starting address 8
+loops = 34603008, 331177.2 MB/s
+Sequential read (512-bit), size = 768 B, 
+Thread 0: size in bytes: 768,  size per thread in bytes 384, starting address 21719296
+
+Thread 0: size of pointers: 3,  size of pointers per thread 2, starting address 0
+
+Thread 1: size in bytes: 768,  size per thread in bytes 384, starting address 21719680
+
+Thread 1: size of pointers: 3,  size of pointers per thread 1, starting address 16
+loops = 18175300, 258164.4 MB/s
+Sequential read (512-bit), size = 1024 B, 
+Thread 0: size in bytes: 1024,  size per thread in bytes 512, starting address 20567296
+
+Thread 0: size of pointers: 4,  size of pointers per thread 2, starting address 0
+
+Thread 1: size in bytes: 1024,  size per thread in bytes 512, starting address 20567808
+
+Thread 1: size of pointers: 4,  size of pointers per thread 2, starting address 16
+loops = 18350080, 350444.9 MB/s
+Sequential read (512-bit), size = 1280 B, 
+Thread 0: size in bytes: 1280,  size per thread in bytes 640, starting address 20567296
+
+Thread 0: size of pointers: 5,  size of pointers per thread 3, starting address 0
+
+Thread 1: size in bytes: 1280,  size per thread in bytes 640, starting address 20567936
+
+Thread 1: size of pointers: 5,  size of pointers per thread 2, starting address 24
+loops = 16777200, 398396.7 MB/s
+Sequential read (512-bit), size = 2 kB, 
+Thread 0: size in bytes: 2048,  size per thread in bytes 1024, starting address 20567296
+
+Thread 0: size of pointers: 8,  size of pointers per thread 4, starting address 0
+
+Thread 1: size in bytes: 2048,  size per thread in bytes 1024, starting address 20568320
+
+Thread 1: size of pointers: 8,  size of pointers per thread 4, starting address 32
+loops = 13893632, 529369.3 MB/s
+Sequential read (512-bit), size = 3 kB, 
+Thread 0: size in bytes: 3072,  size per thread in bytes 1536, starting address 24203392
+
+Thread 1: size in bytes: 3072,  size per thread in bytes 1536, starting address 24204928
+
+Thread 1: size of pointers: 12,  size of pointers per thread 6, starting address 48
+
+Thread 0: size of pointers: 12,  size of pointers per thread 6, starting address 0
+loops = 9961434, 574452.1 MB/s
+Sequential read (512-bit), size = 4 kB, 
+Thread 0: size in bytes: 4096,  size per thread in bytes 2048, starting address 26381440
+
+Thread 0: size of pointers: 16,  size of pointers per thread 8, starting address 0
+
+Thread 1: size in bytes: 4096,  size per thread in bytes 2048, starting address 26383488
+
+Thread 1: size of pointers: 16,  size of pointers per thread 8, starting address 64
+loops = 7471104, 577169.5 MB/s
+Sequential read (512-bit), size = 6 kB, 
+Thread 0: size in bytes: 6144,  size per thread in bytes 3072, starting address 26381440
+
+Thread 0: size of pointers: 24,  size of pointers per thread 12, starting address 0
+
+Thread 1: size in bytes: 6144,  size per thread in bytes 3072, starting address 26384512
+
+Thread 1: size of pointers: 24,  size of pointers per thread 12, starting address 96
+loops = 5330241, 614849.2 MB/s
+Sequential read (512-bit), size = 8 kB, 
+Thread 0: size in bytes: 8192,  size per thread in bytes 4096, starting address 26381440
+
+Thread 0: size of pointers: 32,  size of pointers per thread 16, starting address 0
+
+Thread 1: size in bytes: 8192,  size per thread in bytes 4096, starting address 26385536
+
+Thread 1: size of pointers: 32,  size of pointers per thread 16, starting address 128
+loops = 3997696, 613041.3 MB/s
+Sequential read (512-bit), size = 12 kB, 
+Thread 0: size in bytes: 12288,  size per thread in bytes 6144, starting address 37090432
+
+Thread 1: size in bytes: 12288,  size per thread in bytes 6144, starting address 37096576
+
+Thread 1: size of pointers: 48,  size of pointers per thread 24, starting address 192
+
+Thread 0: size of pointers: 48,  size of pointers per thread 24, starting address 0
+loops = 2752470, 639926.7 MB/s
+Sequential read (512-bit), size = 16 kB, 
+Thread 0: size in bytes: 16384,  size per thread in bytes 8192, starting address 37090432
+
+Thread 0: size of pointers: 64,  size of pointers per thread 32, starting address 0
+
+Thread 1: size in bytes: 16384,  size per thread in bytes 8192, starting address 37098624
+
+Thread 1: size of pointers: 64,  size of pointers per thread 32, starting address 256
+loops = 2129920, 655556.9 MB/s
+Sequential read (512-bit), size = 20 kB, 
